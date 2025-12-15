@@ -20,7 +20,7 @@ jobs:
           cp -r ${{ github.workspace }}/coverage/coverage coverage
 
       - name: Archive code coverage report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: code-coverage-report
           path: |
@@ -35,7 +35,7 @@ jobs:
             ${{ github.workspace }}/build/*.uf2 build
 
       - name: Archive production binaries
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: production-binaries
           path: |
@@ -47,7 +47,7 @@ jobs:
           doxygen .doxygen
 
       - name: Archive code documentation
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: code-documentation
           path: |
