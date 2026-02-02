@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is archived and unmantained.
+
 # 6 Player Chess Clock
 
 [![GitHub Super-Linter](https://github.com/jisbert/6-player-clock/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
